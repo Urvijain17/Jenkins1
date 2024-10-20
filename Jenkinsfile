@@ -7,7 +7,7 @@ pipeline {
         bat "javac HelloWorld.java"
       }
     }
-      stage {
+      stage ("hiee") {
         bat "java HelloWorld"
       }
     
